@@ -86,7 +86,7 @@ class PenguinStatsReporter:
             self.noop = True
             self.initialized = False
             return True
-        """
+            
         try:
             logger.info('载入企鹅数据资源...')
             stageapi = penguin_client.StageApi(self.client)

@@ -85,8 +85,7 @@ class PenguinStatsReporter:
             logger.warn('为避免产生统计偏差，已禁用汇报功能')
             self.noop = True
             self.initialized = False
-            return True
-        """
+            return Tru
         try:
             logger.info('载入企鹅数据资源...')
             stageapi = penguin_client.StageApi(self.client)
